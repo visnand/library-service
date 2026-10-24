@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: library-service
+  description: Library service. Placeholder repository, no implementation yet.
+  tags:
+    - placeholder
+  annotations:
+    github.com/project-slug: visnand/library-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/visnand
